@@ -25,7 +25,7 @@ public class Zad1 {
 
         var x = getNumberFromUser();
 
-        System.out.println("Wartość wielomianu dla podanej liczby wynosi: "
+        System.out.println("The value of the polynomial for the given number is: "
                 + valueOfPolynomial(x));
     }
 }
