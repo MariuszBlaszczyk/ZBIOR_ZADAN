@@ -15,9 +15,9 @@ public class Zad1 {
     }
 
     static double valueOfPolynomial(double number) {
-        double a = (Math.pow(2 * number, 12));
-        double b = (Math.pow(3 * number, 5));
-        double c = (Math.pow(4 * number, 2));
+        double a = 2 * (Math.pow(number, 12));
+        double b = 3 * (Math.pow(number, 5));
+        double c = 4 * (Math.pow(number, 2));
         return a + b - c;
     }
 

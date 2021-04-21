@@ -39,8 +39,7 @@ public class Zad3 {
     static double averageMinAndMax(double... numbers) {
         double min = minValue(numbers);
         double max = maxValue(numbers);
-        double sum = min + max;
-        return sum / 2.0;
+        return min + max / 2.0;
     }
 
     static double midValue(double number1, double number2, double number3) {

@@ -20,8 +20,7 @@ public class Zad4 {
         }
         double pow = Math.pow(a, 2);
         double sqrt =Math.sqrt(3);
-        double multiplier = pow * sqrt;
-        return multiplier / 4.0;
+        return pow * sqrt / 4.0;
     }
 
     static double areaPercent(double a, double b) {
