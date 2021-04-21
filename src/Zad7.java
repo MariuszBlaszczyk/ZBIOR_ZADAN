@@ -12,16 +12,17 @@ public class Zad7 {
         var scan = new Scanner(System.in);
         int number;
         int maxSum = 0;
+        int numberMaxSum = 0;
         do {
             System.out.println("Enter number value greater than one hundred");
             number = scan.nextInt();
             if (sumDigits(number) > maxSum) {
                 maxSum = sumDigits(number);
+                numberMaxSum = number;
             }
         } while (!(number > 100));
-        System.out.print("The number with the greatest sum of digits is "
-                + number + ", and its sum is ");
-        return maxSum;
+        System.out.print("The number with the greatest sum of digits is: ");
+        return numberMaxSum;
     }
 
     static int sumDigits(int number) {
