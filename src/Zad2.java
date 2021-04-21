@@ -16,17 +16,6 @@ public class Zad2 {
         return new Random().nextInt(max - min + 1) + min;
     }
 
-    static void whereby(int number) {
-        if (number < -40) {
-            System.out.println("P1");
-        } else if (number < -20) {
-            System.out.println("P2");
-        } else if (number <= 20) {
-            System.out.println("P3");
-        } else {
-            System.out.println("P4");
-        }
-    }
 
     static int rangeOf(int number) {
         if (number < -40) {
@@ -64,7 +53,7 @@ public class Zad2 {
 
 
         System.out.print("The number " + x + " is in: ");
-//        whereby(x);
+
 
         finalResult(x);
     }
