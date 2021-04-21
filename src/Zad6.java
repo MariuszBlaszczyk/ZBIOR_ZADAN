@@ -48,7 +48,7 @@ public class Zad6 {
             b = getNumberFromUser();
             System.out.println("Give the third number");
             c = getNumberFromUser();
-        } while (!(productThreeNumbers(a,b,c) > 10 && a < b && b < c));
+        } while (!(productThreeNumbers(a, b, c) > 10 && a < b && b < c));
 
 
         printBiggerSum(a, b, c);
