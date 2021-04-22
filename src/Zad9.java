@@ -17,11 +17,11 @@ public class Zad9 {
     }
 
     static double calculateAverage(int... numbers) {
-        int sum = 0;
-        for (int value : numbers) {
+        double sum = 0;
+        for (double value : numbers) {
             sum += value;
         }
-        return sum * 1.0 / numbers.length;
+        return sum  / numbers.length;
     }
 
 //    static void numberCloseToAverage(double average, int number1, int number2, int number3) {
