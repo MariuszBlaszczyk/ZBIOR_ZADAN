@@ -19,17 +19,14 @@ public class Zad9 {
     static double calculateAverage(int... numbers) {
         int sum = 0;
         for (int value : numbers) {
-sum += value;
+            sum += value;
         }
         return sum * 1.0 / numbers.length;
     }
 
-    static double numberCloseToAverage (double average) {
-        int number = 0;
-        for (int i = 0; i < average; i--) {
+    static double numberCloseToAverage(double average, int number1, int number2, int number3) {
 
-        }
-        return number;
+     
     }
 
 
@@ -48,6 +45,9 @@ sum += value;
         int number3 = generateNumber(min3, max3);
 
         double average = calculateAverage(number1, number2, number3);
+
+        System.out.println(average);
+        System.out.println(numberCloseToAverage(average));
 
 
     }
