@@ -24,10 +24,10 @@ public class Zad9 {
         return sum * 1.0 / numbers.length;
     }
 
-    static void numberCloseToAverage(double average, int number1, int number2, int number3) {
-
-
-    }
+//    static void numberCloseToAverage(double average, int number1, int number2, int number3) {
+//
+//
+//    }
 
 
     public static void main(String[] args) {
@@ -47,7 +47,6 @@ public class Zad9 {
         double average = calculateAverage(number1, number2, number3);
 
         System.out.println(average);
-        System.out.println(numberCloseToAverage(average));
 
 
     }

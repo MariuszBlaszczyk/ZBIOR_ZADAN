@@ -47,7 +47,7 @@ public class Zad10 {
             number1 = getNumberFromUser();
             System.out.println("Give the second number: ");
             number2 = getNumberFromUser();
-        } while (calculateAverage(number1, number2) <= a + 1 || calculateAverage(number1, number2) <= a - 1);
+        } while (!(calculateAverage(number1, number2) < a - 2));
 
         System.out.println(number1);
         System.out.println(number2);
