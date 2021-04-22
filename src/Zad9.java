@@ -25,14 +25,17 @@ public class Zad9 {
     }
 
     static void numberCloseToAverage(double average, int number1, int number2, int number3) {
-        if ((Math.abs(number1 - average) <= 1)) {
-            System.out.println("The number that has the closest value to the calculated average is" + number1);
+        double number1a = (Math.abs(number1 - average));
+        double number2a = (Math.abs(number2 - average));
+        double number3a = (Math.abs(number3 - average));
+        if (number1a < number2a && number1a < number3a) {
+            System.out.println("The number that has the closest value to the calculated average is " + number1);
         }
-        if ((Math.abs(number2 - average) <= 1)) {
-            System.out.println("The number that has the closest value to the calculated average is" + number2);
+        if (number2a < number1a && number2a < number3a) {
+            System.out.println("The number that has the closest value to the calculated average is " + number2);
         }
-        if ((Math.abs(number3 - average) <= 1)) {
-            System.out.println("The number that has the closest value to the calculated average is" + number3);
+        if (number3a < number1a && number3a < number1a) {
+            System.out.println("The number that has the closest value to the calculated average is " + number3);
         }
     }
 
@@ -49,6 +52,9 @@ public class Zad9 {
         int number1 = generateNumber(min1, max1);
         int number2 = generateNumber(min2, max2);
         int number3 = generateNumber(min3, max3);
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
 
         double average = calculateAverage(number1, number2, number3);
 
