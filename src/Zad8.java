@@ -56,7 +56,7 @@ public class Zad8 {
             System.out.println("Give the second number");
             b = getNumberFromUser();
             if (a > b) {
-                throw new IllegalArgumentException("A must be less than B!!!");
+                System.out.println("A must be less than B!!!");
             }
         } while (!(a < b));
 
