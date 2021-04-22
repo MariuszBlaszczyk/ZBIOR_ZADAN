@@ -24,9 +24,9 @@ public class Zad9 {
         return sum * 1.0 / numbers.length;
     }
 
-    static double numberCloseToAverage(double average, int number1, int number2, int number3) {
+    static void numberCloseToAverage(double average, int number1, int number2, int number3) {
 
-     
+
     }
 
 
