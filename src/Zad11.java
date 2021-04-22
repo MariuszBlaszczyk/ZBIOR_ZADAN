@@ -16,12 +16,10 @@ public class Zad11 {
         return Math.random() * (max + min) - min;
     }
 
-    static double howManyNaturalNumbersAreSmallerThanTheDrawnNumber(double number) {
+    static int howManyNaturalNumbersAreSmallerThanTheDrawnNumber(double number) {
         int counter = 0;
-        for (double i = 1; i < number; i--) {
-            if (i * 100 < number) {
-                counter++;
-            }
+        for (int i = 1; i < number; i++) {
+            counter++;
         }
         return counter;
     }
@@ -33,9 +31,10 @@ public class Zad11 {
         double max = 6.24;
 
         double number = generateDoubleNumbers(min, max);
-        System.out.println("The drawn number is: " + number);
+        System.out.println("The drawn number is: " + number + "\n");
 
-        System.out.println(howManyNaturalNumbersAreSmallerThanTheDrawnNumber(number));
+        System.out.println("There are " + howManyNaturalNumbersAreSmallerThanTheDrawnNumber(number) +
+                " natural numbers smaller than the number so drawn.");
 
 
     }

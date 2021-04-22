@@ -49,7 +49,7 @@ public class Zad10 {
             number2 = getNumberFromUser();
         } while (!(Math.abs(calculateAverage(number1, number2) - a) <= 2));
 
-        System.out.println(number1);
-        System.out.println(number2);
+        System.out.println("Number1 is : " + number1);
+        System.out.println("Number2 is : " + number2);
     }
 }
