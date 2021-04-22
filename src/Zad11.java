@@ -18,7 +18,7 @@ public class Zad11 {
 
     static int howManyNaturalNumbersAreSmallerThanTheDrawnNumber(double number) {
         int counter = 0;
-        for (int i = 1; i < number; i++) {
+        for (int i = 0; i < number; i++) {
             counter++;
         }
         return counter;
