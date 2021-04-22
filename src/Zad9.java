@@ -30,11 +30,9 @@ public class Zad9 {
         double number3a = (Math.abs(number3 - average));
         if (number1a < number2a && number1a < number3a) {
             System.out.println("The number that has the closest value to the calculated average is " + number1);
-        }
-        if (number2a < number1a && number2a < number3a) {
+        } else if (number2a < number1a && number2a < number3a) {
             System.out.println("The number that has the closest value to the calculated average is " + number2);
-        }
-        if (number3a < number1a && number3a < number1a) {
+        } else {
             System.out.println("The number that has the closest value to the calculated average is " + number3);
         }
     }
